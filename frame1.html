@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing Agency</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="award">Award Winning</h2>
+        <h2 class="digital"><strong>Digital Marketing Agency</strong></h2>
+        <p class="data">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus. Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+        <button id="openFormBtn" class="btn-contact">Contact Us</button>
+      </div>
+      <div class="col-md-6">
+        <img src="image1.png" alt="Agency Image" class="img-fluid">
+      </div>
+    </div>
+  </header>
+
+  <div id="contactForm" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><strong>Talk to us</strong></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+  <form id="contactForm" method="post">
+    <div class="form-group">
+      <label for="email">Work email*:</label>
+      <input type="email" name="work_email" class="form-control" id="email" placeholder="itsnaveen6@gmail.com" required>
+    </div>
+    <div class="form-group">
+      <label for="firstname">First Name*:</label>
+      <input type="text" name="first_name" class="form-control" id="firstname" placeholder="Guguloth" required>
+    </div>
+    <div class="form-group">
+      <label for="lastname">Last Name*:</label>
+      <input type="text" name="last_name" class="form-control" id="lastname" placeholder="Naveen" required>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" name="terms" class="form-check-input" id="terms" required>
+      <label class="form-check-label" for="terms">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+    </div>
+    <button type="submit" class="btn-primary">Contact us</button>
+  </form>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h1 class="text-centermt5">WHAT WE DO</h1>
+    <h2 class="text-centermb-6">SERVICES PROVIDE FOR YOU</h2>
+    <div class="slider">
+        <div class="card-container">
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="frame2_1.webp" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Service 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://fylehq.com" target="_blank" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="frame2_2.webp" class="card-img-top" alt="Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Service 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://fylehq.com" target="_blank" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="frame2_4.webp" class="card-img-top" alt="Image 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Service 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://fylehq.com" target="_blank" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                  <img src="frame2_1.webp" class="card-img-top" alt="Image 3">
+                  <div class="card-body">
+                      <h5 class="card-title">Service 4</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="https://fylehq.com" target="_blank" class="btn btn-primary">Read More</a>
+                  </div>
+              </div>
+              <div class="card">
+                <img src="image1.png" class="card-img-top" alt="Image 3">
+                <div class="card-body">
+                    <h5 class="card-title">Service 5</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://fylehq.com" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+</div>
+
+<div class="container">
+  <h1 class="text-centermt-5">OUR PROJECT</h1>
+  <h2 class="text-centermt-3"><strong>WHY WE ARE BEST</strong></h2>
+
+  <div class="row mt-5">
+      <div class="col-md-6">
+          <div class="image-container">
+              <img src="frame3_1.png" alt="Image 1" id="main-image">
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="content-container">
+              <div class="content-item" data-image="frame2_1.webp">
+                  <h3>Genderless Kei - Japan's Hot</h3>
+                  <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+              </div>
+              <div class="content-item" data-image="frame2_2.webp">
+                  <h3>Better Strategy & Quality</h3>
+                  <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+              </div>
+              <div class="content-item" data-image="frame2_4.webp">
+                  <h3>Genderless Kei - Japan's Hot</h3>
+                  <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="container4">
+  <h1 class="text-centermt9">EXPERTS GROWTH</h1>
+    <h2 class="text-centermb10"><strong>OUR COMPANY GROWTH</strong></h2>
+    <div class="card1">
+      <i class="icon fas fa-heart"></i>
+      <div class="number">
+        199+
+      </div>
+      <div class="text" style="color: black;">Satisfied Customers</div>
+    </div>
+  <div class="card1">
+      <i class="icon fas fa-clock"></i>
+      <div class="number">1591+</div>
+      <div class="text" style="color: black;">Days Of Operation</div>
+  </div>
+  <div class="card1">
+      <i class="icon fas fa-check-circle"></i>
+      <div class="number">283+</div>
+      <div class="text" style="color: black;">Complete Project</div>
+  </div>
+  <div class="card1">
+      <i class="icon fas fa-trophy"></i>
+      <div class="number">75+</div>
+      <div class="text" style="color: black;">Win Awards</div>
+  </div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="frame2.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+  s<script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
